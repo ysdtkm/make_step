@@ -11,6 +11,7 @@ When doing scientific data analysis,
 1. We execute mutually dependent analysis processes,
 2. We re-execute each process through trial and error. Scientists check the output figures, edit source files, and re-execute necessary processes, and
 3. Many files/data are passed between processes. These files are often renamed/added/removed.
+
 With these characteristics, we often forget to execute some necessary processes and we fail to reproduce results.
 
 Only considering points 1 and 2, we imagine that we can write a simple Makefile with explicit dependencies
